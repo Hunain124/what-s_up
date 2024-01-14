@@ -9,6 +9,8 @@ section{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: #202C33;
+    color: white;
 }
 .right{
     border: 1px solid gray;
@@ -16,7 +18,6 @@ section{
 }
 .right>.name1{
     border-bottom: 1px solid gray;
-    background-color: #F0F2F5;
     height: 50px;
     align-items: center;
     display: flex;
@@ -29,12 +30,13 @@ section{
     display: flex;
     justify-content: space-evenly;
 }
-/* .right>.name2>form{
-    border: 1px solid red;
+.right>.name2>input{
+    border: 1px solid gray;
     font-size:20px ;
-    width: 100vw;
-    height: 10vh;
-} */
+    width: 80vw;
+    height: 8vh;
+    border-radius: 50px;
+}
 .right>.name3{
     border-bottom: 1px solid gray;
     height: 50px;
@@ -48,11 +50,11 @@ section{
     height: 73px;
     align-items: center;
     display: flex;
-    gap: 100px;
+    justify-content: space-between;
+    /* gap: 100px; */
     padding: 2px;
 }
 .left{
-    background-color: #F0F2F5;
     width: 100vw;
     gap: 5px;
     display: flex;
@@ -66,4 +68,34 @@ section{
     border-radius:50px ;
     height: 40px;
     width: 100px;
+}
+.name4>.Message{
+    display: flex;
+    flex-direction: column;
+    margin-left: -180px;
+}
+.name5>.Message{
+    display: flex;
+    flex-direction: column;
+    margin-left: -150px;
+}
+.name6>.Message{
+    display: flex;
+    flex-direction: column;
+    margin-left: -195px;
+}
+.name7>.Message{
+    display: flex;
+    flex-direction: column;
+    margin-left: -195px;
+}
+.name8>.Message{
+    display: flex;
+    flex-direction: column;
+    margin-left: -180px;
+}
+.name9>.Message{
+    display: flex;
+    flex-direction: column;
+    margin-left: -80px;
 }
